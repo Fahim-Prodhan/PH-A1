@@ -40,7 +40,7 @@ section {
 
 /* All category css */
 
-.all-categories-container{
+.all-categories-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,4 +77,56 @@ section {
 .category-img {
     width: 802px;
     height: 500px;
+}
+
+/* 2nd banner css */
+.second-banner-container {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Vectorrr.png");
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.second-banner-left {
+    margin-left: 125px;
+    margin-top: 100px;
+}
+
+.second-banner-right {
+    margin-top: 75px;
+}
+
+.second-banner-title {
+    color: #FFF;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+    width: 642px;
+    margin-bottom: 24px;
+}
+
+.second-banner-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+
+.btn-second-banner {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    margin-top: 0;
 }
