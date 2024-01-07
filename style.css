@@ -130,3 +130,46 @@ section {
     border: none;
     margin-top: 0;
 }
+
+/* party-schedule CSS */
+.party-schedule-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 100%;
+    height: 482px;
+    text-align: center;
+}
+
+.party-schedule-details>h4 {
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+}
+
+.party-schedule-details h4>span {
+    color: #F00;
+}
+
+.place {
+    padding-top: 100px;
+}
+
+.date {
+    margin-top: -30px;
+}
+
+.time {
+    margin-top: -30px;
+}
+
+.btn-party-schedule {
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    color: white;
+   
+}
