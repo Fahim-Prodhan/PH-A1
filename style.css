@@ -1,8 +1,12 @@
 /* Global CSS */
 body {
     margin: 50px 140px 0px;
-    font-family: "Merriweather", serif;
 }
+
+section {
+    margin-top: 120px;
+}
+
 
 /* Header CSS */
 .header-banner-container {
@@ -20,6 +24,7 @@ body {
     font-size: 32px;
     font-weight: 400;
     padding-top: 177px;
+    font-family: "Merriweather", serif;
 }
 
 .head-title-2 {
@@ -30,4 +35,46 @@ body {
     line-height: 95px;
     width: 632px;
     padding-left: 344px;
+    font-family: "Merriweather", serif;
+}
+
+/* All category css */
+
+.all-categories-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category-title {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.category-text {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+
+.category-subtitle {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.category-img {
+    width: 802px;
+    height: 500px;
 }
