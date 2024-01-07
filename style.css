@@ -16,26 +16,28 @@ section {
     width: 100%;
     height: 600px;
     border-radius: 16px;
+    text-align: center;
 }
 
 .head-title-1 {
     color: #fff;
-    text-align: center;
     font-size: 32px;
     font-weight: 400;
     padding-top: 177px;
+    padding-left: 15px;
     font-family: "Merriweather", serif;
+    margin-bottom: 10px;
 }
 
 .head-title-2 {
     color: #fff;
-    text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     width: 632px;
     padding-left: 344px;
     font-family: "Merriweather", serif;
+    margin-top: 0;
 }
 
 /* All category css */
@@ -235,3 +237,67 @@ section {
     width: 276px;
     margin-bottom: 45px;
 }
+
+/* Holiday CSS */
+.holiday-text-content {
+    text-align: center;
+}
+
+.holiday-title {
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-headline {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.holiday-headline>span {
+    color: #F00;
+}
+
+.holiday-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 1068px;
+}
+
+.top-img {
+    background-image: url(resources/Rectangle\ 1.png);
+    width: 100%;
+    height: 433px;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+.top-img > img {
+    position: absolute;
+    right: 285px;
+    bottom: 20px;
+}
+
+.bottom-img {
+    background-image: url("resources/Rectangle\ 2.png");
+    width: 100%;
+    height: 229px;
+    position:relative
+}
+
+.bottom-img > img {
+    position: absolute;
+    bottom: 20px;
+    height: 550px;
+    left: 20px;
+}
+
+
