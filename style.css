@@ -1,7 +1,7 @@
 /* Global CSS */
 body {
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 section {
@@ -10,7 +10,7 @@ section {
     margin-right: 140px;
 }
 
-header{
+header {
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
@@ -430,4 +430,57 @@ button {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+}
+
+footer {
+    margin-top: 120px;
+}
+
+footer p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-container {
+    height: 609px;
+    background: #070211;
+    padding: 120px 140px 0;
+}
+
+.footer-first-part {
+    display: flex;
+    gap: 560px;
+    margin: 0;
+}
+
+
+.address {
+    width: 375px;
+    height: 80px;
+}
+
+.contact p{
+    display: inline;
+    margin-left: 15px;
+}
+
+hr {
+    border:1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0;
+    
+}
+
+.footer-second-part {
+    display: flex;
+    justify-content: center;
+}
+.footer-icon {
+    margin-left: 24px;;
+}
+
+.footer-third-part {
+    display: flex;
+    justify-content: space-between;
 }
