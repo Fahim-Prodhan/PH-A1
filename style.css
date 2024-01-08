@@ -440,19 +440,23 @@ footer p {
 
 .footer-first-part {
     display: flex;
-    gap: 560px;
+    gap: 520px;
     margin: 0;
 }
-
 
 .address {
     width: 375px;
     height: 80px;
 }
 
-.contact p{
+.contact > p{
     display: inline;
     margin-left: 15px;
+}
+
+.contact > img {
+    position: relative;
+    top: 5px;
 }
 
 hr {
